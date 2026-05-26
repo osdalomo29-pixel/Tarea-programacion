@@ -13,9 +13,9 @@ def calcular_horas(recurso):
     horas = recurso[1:]
     total_horas = sum(horas)
     if total_horas > 40:
-        clasificacion = "Horas Extras"
+        clasificacion = "Sobretiempo"
     else:
-        clasificacion = "Horas Estándar"
+        clasificacion = "Horario Estándar"
     return nombre, total_horas, clasificacion
 # Recorrer la matriz, imprimir resultados
 for recurso in recursos:
