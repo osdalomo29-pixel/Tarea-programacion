@@ -1,3 +1,4 @@
+# Oscar David López Mora
 # Matriz, recursos y horas trabajadas de lunes a viernes
 recursos = [
     ["Ana", 8, 9, 8, 8, 9],
@@ -12,9 +13,9 @@ def calcular_horas(recurso):
     horas = recurso[1:]
     total_horas = sum(horas)
     if total_horas > 40:
-        clasificacion = "Sobretiempo"
+        clasificacion = "Horas Extras"
     else:
-        clasificacion = "Horario Estándar"
+        clasificacion = "Horas Estándar"
     return nombre, total_horas, clasificacion
 # Recorrer la matriz, imprimir resultados
 for recurso in recursos:
